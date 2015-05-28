@@ -71,7 +71,7 @@ public:
     virtual int64_t Read(void* buffer, int64_t size) = 0;
 
     // Read at most size bytes into buffer.
-    // Return the number of bytes read.
+    // Return the number of bytes write.
     // Return -1 if error occurs.
     virtual int64_t Write(const void* buffer, int64_t size) = 0;
 
